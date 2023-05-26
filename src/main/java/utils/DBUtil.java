@@ -20,6 +20,7 @@ public class DBUtil {
         if (emf == null) {
             emf = Persistence.createEntityManagerFactory(JpaConst.PERSISTENCE_UNIT_NAME);
         }
+
         return emf;
     }
 }
